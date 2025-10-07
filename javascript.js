@@ -102,3 +102,5 @@
 
 ///////////////////////////////////////////////////////
 
+let num = Array.from("Bangladesh");
+console.log(num);

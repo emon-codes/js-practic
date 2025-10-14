@@ -1,6 +1,6 @@
 // let students = ["A", "B", "C"];
 
-// students.forEach((student, idx) => {});
+
 
 // let all = students.map((std, idx) => {});
 

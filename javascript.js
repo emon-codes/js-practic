@@ -102,5 +102,154 @@
 
 ///////////////////////////////////////////////////////
 
-let num = Array.from("Bangladesh");
-console.log(num);
+// let num = Array.from("Bangladesh");
+// console.log(num);
+
+
+
+// let students = ["A", "B", "C", "d", ""];
+
+// students.forEach((student, idx, array) => {
+//  console.log(`${student}.idx num ${idx} array ${array} `);
+//  });
+
+// console.log(students)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let studentName = ['rana', 'rakib', 'rony', 'forhad'];
+
+
+
+// studentName.forEach((element, idx, arrow) => {
+//     console.log(` ${element} index ${idx} arrow ${arrow}`)
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////////////////
+
+let studentName = ['2', '8', '3', 4, '5'];
+
+// student = studentName.map( num => num * 3)
+// console.log(student);
+
+// var bagfol = studentName.filter((num) => num % 2  != 0);
+// console.log(bagfol)
+
+
+
+
+
+
+
+////////////////////////////////////
+/*Parameter	               মানে
+accumulator     	আগের ধাপের ফলাফল                    
+currentValue	    বর্তমানে যেটা প্রোসেস হচ্ছে                           
+initialValue	    প্রথমবারের জন্য শুরুর মান] 
+array.reduce(function(accumulator, currentValue, currentIndex, array) {
+   // return new accumulator value
+}, initialValue);
+
+*/
+
+let number = [10,20,30,40,50];
+
+total = number.reduce((acc, init, idx, sak)  => acc + init+ idx + sak , 2);
+
+console.log(total);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+studentName.push(3,2,1,6,5,4,);
+
+// console.log(studentName)
+
+// pop() sudu lust er akta element remove kora 
+
+// studentName.pop()           
+// console.log(studentName)
+
+
+
+// studentName.shift()
+
+// console.log(studentName)
+
+
+// studentName.unshift(10,20,30,40,60,)
+
+// console.log(studentName)
+
+
+
+

@@ -4,40 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DocumentFragment Test</title>
+
 </head>
 <body>
 
-  <!-- <button id="alertBtn">click me</button> -->
-
-
-
-<input id="input" type="text">
-
-<p id="output"></p>
+ <div id="prent"></div>
 
 
 
 
 
-<h1 id="hoverevent">Bangladesh of the world famus country</h1>
-
-
-
-<input id="inputbox" type="text">
-
-<p id="showbox"></p>
-
-
-
-<input type="text" name="" id="cinput">
-
-
-<p id="coutput"></p>
-
-
-
-  <script src="./addLesenar.js">
+  <script src="./getpost.js">
  
+
+// let prent = document.getElementById("prent");
+// let fragment = document.createDocumentFragment();
+
+// async function getPosts() {
+//   try {
+//     const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+//     const posts = await response.json();
+
+//     posts.forEach(post => {
+//       const div = document.createElement("div");
+//       div.className = "container"; // spelling ঠিক করা হয়েছে
+
+//       div.innerHTML = `
+//         <h1>User ID: ${post.userId}</h1>
+//         <h2>ID: ${post.id}</h2>
+//         <h3>Title: ${post.title}</h3>
+//         <p>Body: ${post.body}</p>
+//       `;
+
+//       fragment.appendChild(div);
+//     });
+
+//     prent.appendChild(fragment);
+//   } catch (error) {
+//     console.error("❌ Error fetching posts:", error);
+//   } finally {
+//     console.log("✅ Done fetching all posts");
+//   }
+// }
+
+// getPosts();
 
   </script>
 

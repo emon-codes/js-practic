@@ -1,0 +1,24 @@
+.container{
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  list-style: none;
+
+  box-shadow: 5px  2px 20px rgb(27, 27, 27);
+  background-color: rgb(19, 128, 15);
+  color: white;
+ padding: 30px;
+  margin: 20px;
+ 
+}
+
+#prent{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 0px;
+row-gap: 0px;
+
+
+}

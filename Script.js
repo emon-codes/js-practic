@@ -18,12 +18,20 @@
 
 
 
-let age = 22;
-let country = "bangladesh";
+// let age = 22;
+// let country = "bangladesh";
 
-let message =
-  age >= 18 && country === "bangladesh"
-    ? "You are eligible to vote"
-    : "You are not eligible to vote";
+// let message =
+//   age >= 18 && country === "bangladesh"
+//     ? "You are eligible to vote"
+//     : "You are not eligible to vote";
 
-console.log(message);
+// console.log(message);
+
+
+let score = 99;
+let golden = 99;
+
+var mark = score >= 99 ? "golden A+" : " you pass";
+
+console.log(mark)

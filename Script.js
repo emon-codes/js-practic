@@ -35,3 +35,6 @@ let golden = 99;
 var mark = score >= 99 ? "golden A+" : " you pass";
 
 console.log(mark)
+
+
+

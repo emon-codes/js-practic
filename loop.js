@@ -10,3 +10,12 @@ while (count <= 20) {
     console.log(count);
     count++
 }
+
+
+
+let counts = 1;
+
+do {
+    console.log(counts);
+    counts++;
+} while (count <= 5);

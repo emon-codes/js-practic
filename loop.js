@@ -19,3 +19,11 @@ do {
     console.log(counts);
     counts++;
 } while (count <= 5);
+
+
+
+// for loop ব্যবহার করা হয় যখন iteration সংখ্যা জানা থাকে
+
+// while loop ব্যবহার করা হয় যখন iteration সংখ্যা জানা থাকে না
+
+// do...while loop ব্যবহার করা হয় যখন কমপক্ষে একবার execute করতেই হয়

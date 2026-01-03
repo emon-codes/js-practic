@@ -38,3 +38,8 @@ console.log(mark)
 
 
 
+let text = "Bangladesh is World famush country";
+
+console.log(text.replaceAll("o" , "a"))
+
+

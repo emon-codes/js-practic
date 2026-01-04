@@ -32,14 +32,19 @@ multiplay(5, 6);        //ei khanea "5, 6" holo argument
 
 // array function
 
+// -----------single kaj er jono------
+const plass = (x, y) => console.log(x * y);
+
+plass(20, 2);
+
+
+
+
+// multipole kaj er jono
 
 const squere = () => {
     console.log("this is array function")
 }
 squere()
 
-
-const plass = (x, y) => {
-    console.log(x*y)
-}
-plass(20, 2);
+ 

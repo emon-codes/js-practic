@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ternary Dark Light Toggle</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+
+  <div class="text-center space-y-4">
+
+    <!-- DIV -->
+    <div 
+      id="box"
+      class="w-64 h-32 flex items-center justify-center rounded-lg bg-white text-black transition-all duration-300"
+    >
+      Light Mode
+    </div>
+
+    <!-- BUTTON -->
+    <button 
+      onclick="toggleMode()"
+      class="px-6 py-2 rounded bg-blue-600 text-white hover:bg-blue-700"
+    >
+      Toggle Mode
+    </button>
+
+  </div>
+
+</body>
+</html>

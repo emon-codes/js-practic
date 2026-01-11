@@ -29,5 +29,21 @@
 
   </div>
 
+  <script>
+    let isDark = false;
+
+    function toggleMode() {
+      const box = document.getElementById("box");
+
+      isDark = !isDark;
+
+      box.className = isDark
+        ? "w-64 h-32 flex items-center justify-center rounded-lg bg-gray-900 text-white transition-all duration-300"
+        : "w-64 h-32 flex items-center justify-center rounded-lg bg-white text-black transition-all duration-300";
+
+      box.innerText = isDark ? "Dark Mode" : "Light Mode";
+    }
+  </script>
+
 </body>
 </html>

@@ -29,17 +29,34 @@
 // console.log(message);
 
 
-let score = 99;
-let golden = 99;
+// let score = 99;
+// let golden = 99;
 
-var mark = score >= 99 ? "golden A+" : " you pass";
+// var mark = score >= 99 ? "golden A+" : " you pass";
 
-console.log(mark)
+// console.log(mark)
 
 
 
-let text = "Bangladesh is World famush country";
+// let text = "Bangladesh is World famush country";
 
-console.log(text.replaceAll("o" , "a"))
+// console.log(text.replaceAll("o" , "a"))
+
+
+
+
+
+
+let number = Number(prompt("inter your number"));
+
+
+
+if(number > 0){
+    console.log("number projative")
+}
+
+else {
+    console.log("number nagative")
+}
 
 
